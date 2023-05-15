@@ -10,6 +10,12 @@ def index():
     return "<h1> Welcome to the home page </h1>"
 
 
+@application.route("/hello")
+def hello():
+    return "<h1> Hello Yannis </h1>"
+
+
+
 #quote endpoint
 @application.route("/quote")
 def quote():
